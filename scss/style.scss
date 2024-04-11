@@ -7,14 +7,184 @@
 /******************About Us Css*****************/
 .about-us-section{
 	width: 100%;
+	&:before{
+		position: absolute;
+		content: "";
+		left: 0;
+		bottom: 0;
+		background: url("../img/background-patches/patch1.png");
+		width: 15%;
+		height: 45%;
+		background-repeat: no-repeat;
+		background-size: cover
+	}
+	&:after{
+		position: absolute;
+		content: "";
+		right: 0;
+		top: -15px;
+		background: url("../img/background-patches/patch1.png");
+		width: 15%;
+		height: 45%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transform: rotate(180deg);
+	}
 	@include common-padding;
 	.about-us-content{
+		padding-right: 12%;
 		h1{
 			@include common-heading;
 		}
 		p{
 			@include common-paragraph;
 		}
+		button{
+			@include common-button;
+		}
 	}
 }
+
+
+/******************Governing Council Css*****************/
+.governing-council{
+	width: 100%;
+	@include common-padding;
+	background-color: $background-color;
+	h1{
+		@include common-heading;
+	}
+	#governing-council-carousel{
+		.item{
+			background-color: $secondary-color;
+			border-radius: 30px;
+			cursor: pointer;
+			.img-div{
+				overflow: hidden;
+				border-radius: 30px;
+				img{
+					display: block;
+					width: 100%;
+					border-radius: 30px;
+					transition: all 0.5s;
+				}
+			}
+			&:hover img{
+			transform: scale(1.1);
+			transition: all 0.5s;
+			}
+		}
+		.item-details{
+			text-align: center;
+			padding: 22px;
+			h2{
+				color: $primary-color;
+				font-size: 20px;
+				text-transform: uppercase;
+				font-family: $paragraph-font;
+				font-weight: 700;
+			}
+			span{
+				color:$white;
+				font-size: 16px;
+				font-weight: 500;
+			}
+		}
+		.owl-dots {
+			width: 100%;
+			display: block;
+			text-align: center;
+			.owl-dot {
+				display: inline-block;
+				background: none repeat scroll 0 0 $white;
+				border-radius: 20px;
+				height: 15px;
+				margin: 5px;
+				width: 15px;
+				margin-top: 55px;
+				margin-bottom: 0;
+				&.active {
+					background-color:$primary-color;
+				}
+				&:hover {
+					background-color:$primary-color;
+				}
+			}
+		}
+	}
+}
+
+/******************Home Team Section Css*****************/
+.home-team-section{
+	width: 100%;
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
+	#home-team-carousel{
+		.team-logo-img{
+			img{
+				width: 55%;
+			}
+		}
+	}
+}
+
+
+/******************Footer Css*****************/
+footer{
+	@include common-padding;
+	background-color: $secondary-color;
+	h3{
+		font-size: 17px;
+		text-transform: uppercase;
+		color: $white;
+		font-family: $paragraph-font;
+		font-weight: 700;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			margin-bottom: 10px;
+			a{
+				font-size: 13px;
+				font-weight: 400;
+				font-family: $paragraph-font;
+				text-transform: uppercase;
+				display: block;
+				color: $white;
+				&:hover{
+					color: $primary-color;
+			}
+			}
+			&:nth-last-child(1){
+				margin-bottom: 0;
+			}
+		}
+	}
+	p{
+		@include common-paragraph;
+		color: $white;
+	}
+}
+.copyright-strip{
+	width: 100%;
+	padding: 10px 0;
+	background-color: $black;
+	.copyright{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: $white;
+		font-size: 12px;
+		font-family: $paragraph-font;
+		a{
+			color: $white;
+			text-decoration: underline;
+		}
+	}
+}
+
 

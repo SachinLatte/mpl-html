@@ -60,13 +60,13 @@ p {
 
 .start-header.scroll-on {
   box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-  padding: 10px 0;
+  padding: 5px 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   position: fixed;
 }
 .start-header.scroll-on .navbar-brand img {
-  width: 70%;
+  width: 75%;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -119,6 +119,57 @@ p {
 }
 .navbar-toggler:focus {
   outline: none;
+}
+
+.nav-item .dropdown-menu {
+  transform: translate3d(0, 10px, 0);
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  transition: all 200ms linear;
+}
+
+.nav-item.show .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 999px;
+  transform: translate3d(0, 0px, 0);
+}
+
+.dropdown-menu {
+  padding: 10px !important;
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #212121;
+  background-color: #fcfaff;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+  transition: all 200ms linear;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  padding: 6px 10px;
+  color: #002957;
+  border-radius: 2px;
+  transition: all 200ms linear;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fff;
+  background-color: #ff6c00;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -231,12 +282,15 @@ p {
   justify-content: center;
   align-items: center;
   margin-right: 5px;
+  margin-bottom: 0;
 }
 .social-media ul li:nth-last-child(1) {
   margin-right: 0;
 }
 .social-media ul li a {
   color: #002957;
+  margin-bottom: 0;
+  font-size: 17px;
 }
 
 #owlHero.owl-carousel {
@@ -335,6 +389,32 @@ p {
   width: 100%;
   padding: 4% 0;
 }
+.about-us-section:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: url("../img/background-patches/patch1.png");
+  width: 15%;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-section:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -15px;
+  background: url("../img/background-patches/patch1.png");
+  width: 15%;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+.about-us-section .about-us-content {
+  padding-right: 12%;
+}
 .about-us-section .about-us-content h1 {
   font-family: "Oswald", sans-serif;
   font-size: 35px;
@@ -348,7 +428,177 @@ p {
   font-family: "Lato", sans-serif;
   color: #002957;
   line-height: 30px;
+  font-weight: 500;
+}
+.about-us-section .about-us-content button {
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 15px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(0deg, rgb(3, 49, 160) 0%, rgb(8, 34, 110) 100%);
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+}
+.about-us-section .about-us-content button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.about-us-section .about-us-content button:hover {
+  background: linear-gradient(0deg, rgb(8, 34, 110) 0%, rgb(3, 49, 158) 100%);
+  transition: all 0.5s;
+}
+
+/******************Governing Council Css*****************/
+.governing-council {
+  width: 100%;
+  padding: 4% 0;
+  background-color: #d8e0eb;
+}
+.governing-council h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  color: #ff6c00;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.governing-council #governing-council-carousel .item {
+  background-color: #002957;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.governing-council #governing-council-carousel .item .img-div {
+  overflow: hidden;
+  border-radius: 30px;
+}
+.governing-council #governing-council-carousel .item .img-div img {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.governing-council #governing-council-carousel .item:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.governing-council #governing-council-carousel .item-details {
+  text-align: center;
+  padding: 22px;
+}
+.governing-council #governing-council-carousel .item-details h2 {
+  color: #ff6c00;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.governing-council #governing-council-carousel .item-details span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.governing-council #governing-council-carousel .owl-dots {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.governing-council #governing-council-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 20px;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+.governing-council #governing-council-carousel .owl-dots .owl-dot.active {
+  background-color: #ff6c00;
+}
+.governing-council #governing-council-carousel .owl-dots .owl-dot:hover {
+  background-color: #ff6c00;
+}
+
+/******************Home Team Section Css*****************/
+.home-team-section {
+  width: 100%;
+  padding: 4% 0;
+}
+.home-team-section h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  color: #ff6c00;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.home-team-section #home-team-carousel .team-logo-img img {
+  width: 55%;
+}
+
+/******************Footer Css*****************/
+footer {
+  padding: 4% 0;
+  background-color: #002957;
+}
+footer h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+footer ul li a {
+  font-size: 13px;
   font-weight: 400;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #ff6c00;
+}
+footer ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+footer p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #002957;
+  line-height: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.copyright-strip {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #000;
+}
+.copyright-strip .copyright {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+.copyright-strip .copyright a {
+  color: #fff;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

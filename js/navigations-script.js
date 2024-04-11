@@ -2,12 +2,15 @@
 (function($) { "use strict";
 	$(function() {
 		var header = $(".start-style");
+		var topNavstrip = $(".top-nav-strip");
 		$(window).scroll(function() {    
 			var scroll = $(window).scrollTop();
 			if (scroll >= 10) {
 				header.removeClass('start-style').addClass("scroll-on");
+				topNavstrip.removeClass('d-block').addClass("d-none");
 			} else {
 				header.removeClass("scroll-on").addClass('start-style');
+				topNavstrip.removeClass('d-none').addClass("d-block");
 			}
 		});
 	});		

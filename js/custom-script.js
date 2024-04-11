@@ -29,4 +29,52 @@ owlHero.owlCarousel({
     }
 });
 
+//governing council slider
+$('#governing-council-carousel').owlCarousel( {
+    loop: true,
+    center: true,
+    items: 3,
+    margin: 40,
+    autoplay: true,
+    dots:true,
+    nav:false,
+    autoplayTimeout: 8500,
+    smartSpeed: 450,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        1170: {
+            items: 3
+        }
+    }
+});
+
+//home team logo slider
+$('#home-team-carousel').owlCarousel( {
+    loop: true,
+    center: true,
+    items: 5,
+    margin: 40,
+    autoplay: true,
+    dots:true,
+    nav:false,
+    autoplayTimeout: 8500,
+    smartSpeed: 450,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        1170: {
+            items: 5
+        }
+    }
+});
+
 

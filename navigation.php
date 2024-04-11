@@ -1,6 +1,6 @@
 <div class="hero-anime">
 <div class="main-navigation">
-	<div class="top-nav-strip">
+	<div class="top-nav-strip d-block">
 		<div class="custom-container">
 			<div class="row no-gutters">
 				<div class="col-6">
@@ -18,7 +18,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="navigation-wrap start-header start-style">
+	<div class="navigation-wrap start-header start-style position-relative">
 		<div class="custom-container">
 			<div class="row">
 				<div class="col-12">
@@ -36,16 +36,17 @@
 									<a class="nav-link" href="javascript:void(0)">About Us</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="javascript:void(0)">Teams</a>
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Teams</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="javascirpt:void(0)">Gwalior Cheetah</a>
+										<a class="dropdown-item" href="javascirpt:void(0)">Jabalpur Lions</a>
+										<a class="dropdown-item" href="javascirpt:void(0)">Malwa Panthers</a>
+										<a class="dropdown-item" href="javascirpt:void(0)">Satpura Leopards</a>
+										<a class="dropdown-item" href="javascirpt:void(0)">Rewa Jaguars</a>
+									</div>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Fixtures</a>
-									<!-- <div class="dropdown-menu">
-										<a class="dropdown-item" href="#">Action</a>
-										<a class="dropdown-item" href="#">Another action</a>
-										<a class="dropdown-item" href="#">Something else here</a>
-										<a class="dropdown-item" href="#">Another action</a>
-									</div> -->
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link" href="javascript:void(0)">Results</a>

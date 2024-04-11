@@ -22,5 +22,27 @@
     font-family: $paragraph-font;
     color: $secondary-color;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+@mixin common-button{
+    color: $white;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-family: $paragraph-font;
+    background: linear-gradient(0deg, rgb(3, 49, 160) 0%, rgb(8, 34, 110) 100%);
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition:  all 0.5s;
+    &:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+    &:hover{
+        background: linear-gradient(0deg, rgba(8,34,110,1) 0%, rgba(3,49,158,1) 100%);
+        transition:  all 0.5s;
+    }
 }
