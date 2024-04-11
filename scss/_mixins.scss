@@ -4,3 +4,23 @@
     color: $white;
 }
 
+@mixin common-padding{
+    padding: 4% 0;
+}
+
+@mixin common-heading{
+    font-family: $heading-font;
+    font-size: 35px;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+@mixin common-paragraph{
+    font-size: 16px;
+    font-family: $paragraph-font;
+    color: $secondary-color;
+    line-height: 30px;
+    font-weight: 400;
+}

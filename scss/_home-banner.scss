@@ -1,0 +1,94 @@
+#owlHero.owl-carousel {
+	display: block;
+	width: 100%;
+	height: 100vh;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	z-index: 1;
+	.owl-stage {
+		position: relative;
+		-ms-touch-action: pan-Y;
+		height: 100%;
+	}
+	.owl-stage-outer {
+		height: 100%;
+	}
+	.owl-item {
+		position: relative;
+		min-height: 1px;
+		height: 100%;
+		float: left;
+		-webkit-backface-visibility: hidden;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.owl-lazy {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		padding-top: 150%;
+	}
+.home-banner-content{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+	flex-direction: column;
+	h1{
+		color: $primary-color;
+		font-size: 90px;
+		font-family: $heading-font;
+		text-transform: uppercase;
+	}
+	p{
+		color: $white;
+		font-family: $heading-font;
+		text-transform: uppercase;
+		font-size: 35px;
+	}
+}
+.owl-nav{
+	position: absolute;
+    top: 50%;
+    width: 100%;
+	.owl-prev{
+		left: 15%;
+		bottom: -45px;
+		background: url("../svg/arrow-right-s-line.svg");
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		color: transparent;
+		background-size: cover;
+	}
+	.owl-next{
+		right: 15%;
+		bottom: -45px;
+		background: url("../svg/arrow-right-s-line.svg");
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		color: transparent;
+		background-size: cover;
+		transform: rotate(180deg);
+	}
+}
+}
+
+
+@media (min-height: 700px) {
+	#owlHero.owl-carousel {
+		.owl-lazy {
+			height: 100%;
+			padding: 0;
+		}
+	}
+}

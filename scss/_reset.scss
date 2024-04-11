@@ -5,9 +5,6 @@
 	outline: none;
 	box-sizing: border-box;
 }
-body{
-	background-color:#000;
-}
 a {
 	text-decoration: none;
 	&:hover{
@@ -29,4 +26,8 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
 	margin: 0;
+}
+.custom-container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
