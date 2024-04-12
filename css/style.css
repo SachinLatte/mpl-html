@@ -601,4 +601,37 @@ footer p {
   text-decoration: underline;
 }
 
+/******************Social Media Widgets Css*****************/
+.social-media-widgets {
+  width: 100%;
+  padding: 4% 0;
+}
+.social-media-widgets ul.social__widgets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-media-widgets ul.social__widgets li {
+  width: 33.33%;
+  float: left;
+  padding: 0 2%;
+  height: 490px;
+  overflow: hidden;
+}
+.social-media-widgets img.imgresponsive {
+  width: 100%;
+}
+.social-media-widgets #eapps-instagram-feed-1 {
+  width: 100% !important;
+}
+.social-media-widgets .eapps-instagram-feed-posts-slider-inner {
+  width: 100% !important;
+}
+.social-media-widgets .social__widgets__bottom {
+  width: 100%;
+  float: left;
+  background: #7d3746;
+  height: 201px;
+}
+
 /*# sourceMappingURL=style.css.map */
