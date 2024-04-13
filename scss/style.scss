@@ -1,12 +1,36 @@
 @import 'reset';
 @import 'mixins';
+@import 'breakpoints';
 @import 'variables';
 @import 'navigations';
 @import 'home-banner';
-
+@import 'social-media-widgets';
 /******************About Us Css*****************/
+.custom-container{
+    max-width: 1200px;
+    margin: 0 auto;
+	@include breakpoints(1366px){
+		max-width: 1100px;
+	}
+	@include breakpoints(1101px){
+		max-width: 950px;
+	}
+	@include breakpoints(991px){
+		max-width: 900px;
+	}
+	@include breakpoints(768px){
+		max-width: 700px;;
+	}
+	@include breakpoints(500px){
+		max-width: 355px;;
+	}
+	@include breakpoints(380px){
+		max-width: 325px;;
+	}
+}
 .about-us-section{
 	width: 100%;
+	@include common-padding;
 	&:before{
 		position: absolute;
 		content: "";
@@ -16,7 +40,14 @@
 		width: 15%;
 		height: 45%;
 		background-repeat: no-repeat;
-		background-size: cover
+		background-size: cover;
+		@include breakpoints(1024px){
+			bottom: -55px;
+			z-index: -1;
+		}
+		@include breakpoints(500px){
+			display: none;
+			}
 	}
 	&:after{
 		position: absolute;
@@ -29,10 +60,20 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		transform: rotate(180deg);
+		@include breakpoints(1024px){
+			z-index: -1;
+			top: -55px;
+		}
+		@include breakpoints(500px){
+		display: none;
+		}
 	}
-	@include common-padding;
+
 	.about-us-content{
 		padding-right: 12%;
+		@include breakpoints(500px){
+		padding-right: 0;
+		}
 		h1{
 			@include common-heading;
 		}
@@ -57,7 +98,7 @@
 	#governing-council-carousel{
 		.item{
 			background-color: $secondary-color;
-			border-radius: 30px;
+			border-radius: 35px;
 			cursor: pointer;
 			.img-div{
 				overflow: hidden;
@@ -65,7 +106,7 @@
 				img{
 					display: block;
 					width: 100%;
-					border-radius: 30px;
+					border-radius: 15px;
 					transition: all 0.5s;
 				}
 			}
@@ -77,17 +118,29 @@
 		.item-details{
 			text-align: center;
 			padding: 22px;
+			@include breakpoints(1600px){
+				padding: 15px;
+			}
+			@include breakpoints(1366px){
+				padding: 13px;
+			}
 			h2{
 				color: $primary-color;
 				font-size: 20px;
 				text-transform: uppercase;
 				font-family: $paragraph-font;
 				font-weight: 700;
+				@include breakpoints(1366px){
+					font-size:18px;
+				}
 			}
 			span{
 				color:$white;
 				font-size: 16px;
 				font-weight: 500;
+				@include breakpoints(1366px){
+					font-size:15px;
+				}
 			}
 		}
 		.owl-dots {
@@ -123,8 +176,41 @@
 	}
 	#home-team-carousel{
 		.team-logo-img{
+			&:hover img{
+				transform: scale(0.9);
+				filter: grayscale(1);
+				transition: all 0.5s;
+			}
 			img{
-				width: 55%;
+				width: 50%;
+				margin: 0 auto;
+				cursor: pointer;
+				transition: all 0.5s;
+				transform: scale(1);
+			}
+		}
+				.owl-dots {
+			width: 100%;
+			display: block;
+			text-align: center;
+			.owl-dot {
+				display: inline-block;
+				background: none repeat scroll 0 0 $secondary-color;
+				border-radius: 20px;
+				height: 15px;
+				margin: 5px;
+				width: 15px;
+				margin-top: 55px;
+				margin-bottom: 0;
+				@include breakpoints(1440px){
+					margin-top: 40px;
+				}
+				&.active {
+					background-color:$primary-color;
+				}
+				&:hover {
+					background-color:$primary-color;
+				}
 			}
 		}
 	}
@@ -166,12 +252,18 @@ footer{
 	p{
 		@include common-paragraph;
 		color: $white;
+		@include breakpoints(500px){
+			line-height: 26px;
+		}
 	}
 }
 .copyright-strip{
 	width: 100%;
 	padding: 10px 0;
 	background-color: $black;
+	@include breakpoints(500px){
+		padding: 8px 0;
+	}
 	.copyright{
 		width: 100%;
 		display: flex;
@@ -184,41 +276,501 @@ footer{
 			color: $white;
 			text-decoration: underline;
 		}
+		@include breakpoints(500px){
+			display: block;
+			text-align: center;
+		}
 	}
 }
 
 /******************Social Media Widgets Css*****************/
 .social-media-widgets{
 	width: 100%;
+    margin: 0 auto;
 	@include common-padding;
-	 ul.social__widgets{
-		margin:0;
-		padding:0;
-		list-style: none;
-			li{
-				width: 33.33%;
-				float: left;
-				padding: 0 2%;
-				height: 490px;
-				overflow: hidden; 
-			}
+	h1{
+		@include common-heading;
 	}
-	
-	img.imgresponsive{
-		width:100%;
-	}
-	#eapps-instagram-feed-1{
-		width: 100%!important;
-	}
-	.eapps-instagram-feed-posts-slider-inner{
-		width: 100%!important; 
-	}
-	.social__widgets__bottom{
+	img{
 		width: 100%;
-		float: left;
-		background: #7d3746;
-		height: 201px;
+	}
+	.main-widgets{
+		display: grid;
+		grid-auto-rows: 445px;
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+		grid-gap: 2em;
+		.social-grid{
+			background-color: $background-color;
+			border-radius: 45px;
+			overflow: hidden;
+			// border-top-left-radius: 45px;
+			// border-top-right-radius: 45px;
+		}
+
+		@include breakpoints(1101px){
+			grid-auto-rows: 375px;
+			grid-template-columns: repeat(auto-fill, minmax(202px, 1fr));
+		}
+		@include breakpoints(768px){
+			grid-auto-rows: 300px;
+		}
+		@include breakpoints(500px){
+			grid-auto-rows: 270px;
+		}
 	}
 }
 
 
+/******************Home Player Carousel Css*****************/
+.home-player-section{
+width: 100%;
+position: relative;
+overflow: hidden;
+&:before{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	background: url("../img/background-patches/patch1.png");
+	width: 15%;
+	height: 45%;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+&:after{
+	position: absolute;
+	content: "";
+	right: 0;
+	top: -15px;
+	background: url("../img/background-patches/patch1.png");
+	width: 15%;
+	height: 45%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform: rotate(180deg);
+}
+	@include common-padding;
+	background-color: $background-color;
+	h1{
+		@include common-heading;
+	}
+	#home-player-carousel{
+		.item{
+			background-color: $secondary-color;
+			transition: all 0.5s;
+			position: relative;
+			cursor: pointer;
+			&:hover img{
+				transform: scale(1.1);
+				transition: all 0.5s;
+			}
+			&:hover{
+				background-color: $common-color;
+				transition: all 0.5s;
+			}
+			.img-div{
+				background-color: #fff;
+				width: 100%;
+				height: 240px;
+				border-bottom-left-radius: 135px;
+				border-bottom-right-radius: 135px;
+				position: relative;
+				overflow: hidden;
+				padding-top: 10px;
+				img{
+					width: 70%;
+					position: relative;
+					top: 0px;
+					left: 14%;
+					transition: all 0.5s;
+				}
+			}
+			h4{
+				color: $primary-color;
+				font-size: 28px;
+				text-align: center;
+				font-weight: 500;
+				font-family: $heading-font;
+				margin-bottom: 12px;
+				@include breakpoints(1366px){
+					font-size:24px;
+				}
+			}
+			button{
+				@include view-profile-btn;
+			}
+			.item-details{
+				padding: 15px 10px 22px 10px;
+			}
+		}
+		.owl-nav{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			.owl-prev{
+				left: -85px;
+				bottom: -10px;
+				background: url("../svg/arrow-right-s-line-orange.svg");
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				color: transparent;
+				background-size: cover;
+				@include breakpoints(1366px){
+					left: -50px;
+				}
+				@include breakpoints(991px){
+					left: -40px;
+				}
+				@include breakpoints(768px){
+				left: 0;
+				}
+			}
+			.owl-next{
+				right: -85px;
+				bottom: -10px;
+				background: url("../svg/arrow-right-s-line-orange.svg");
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				color: transparent;
+				background-size: cover;
+				transform: rotate(180deg);
+				@include breakpoints(1366px){
+					right: -50px;
+				}
+				@include breakpoints(991px){
+					right: -40px;
+				}
+				@include breakpoints(768px){
+				right: 0;
+				}
+			}
+		}
+	}
+}
+.top-half-circle{
+	background-color: lightseagreen;
+}
+
+
+/****************Scroll To Top Button Css*****************/
+
+#top-button {
+	display: inline-block;
+	background-image: url("../img/ball.png");
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	background-repeat: no-repeat;
+    background-size: cover;
+	cursor: pointer;
+	-webkit-animation: bounce .4s ease infinite alternate;
+			@include breakpoints(1024px){
+			width: 40px;
+			height: 40px;
+		}
+		@include breakpoints(500px){
+			width: 35px;
+			height: 35px;
+		}
+}
+#top-button.show {
+	opacity: 1;
+	visibility: visible;
+}
+@-webkit-keyframes bounce {
+	0% {
+  
+	}
+	100% {
+	  transform:translateY(-20px);
+  
+	}
+  }
+
+  .page-breadcrumbs{
+    width: 100%;
+    margin-bottom: 5%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            float: left;
+            padding: 0 10px;
+            position: relative;
+            &:nth-child(1):before{
+                display: none;
+            }
+            &:before{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 8px;
+                left: -3px;
+                background: url(../img/right_arrow.jpg);
+                background-size: 30%;
+                height: 20px;
+                width: 20px;
+                background-repeat: no-repeat;
+            }
+            a{
+                font-size: 14px;
+                font-family: $paragraph-font;
+                color: $black;
+                font-weight: 600;
+            }
+            a.active{
+                color: $primary-color;
+            }
+            }
+        }
+  }
+.custom-class{
+	@include common-margin-padding;
+}
+.common-bg{
+	background-image: url("../img/background-patches/patch3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+  /****************Contact Us Css*****************/
+.contact-us{
+	width: 100%;
+	h1{
+		@include common-heading;
+		text-align: center;
+	}
+	#google-map{
+		width: 100%;
+		height: 100%;
+		iframe{
+			border-radius: 30px;
+		}
+	}
+	.right-img{
+		img{
+			border-radius: 30px;
+		}
+		
+	}
+	.info-main-box{
+		width: 80%;
+		margin: 0 auto;
+		.info-grid{
+			display: grid;
+			grid-auto-rows: auto;
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+			grid-gap: 5em;
+			margin-top: 12%;
+			text-align: center;
+			.grid-layout{
+				text-align: center;
+				padding: 25px;
+				border-radius: 10px;
+				cursor: pointer;
+				&:after{
+					position: absolute;
+					content: "";
+					width: 2px;
+					height: 75%;
+					background-color: $secondary-color;
+					right: -15%;
+					top: 12%;
+				}
+				&:nth-last-child(1):after{
+					display: none;
+				}
+				.svg-div{
+					width: 85px;
+					height: 85px;
+					border: 2px solid $secondary-color;
+					padding: 20px;
+					border-radius: 50px;
+					margin: 0 auto;
+					svg{
+						width: 100%;
+					}
+				}
+				p{
+					@include common-paragraph;
+					font-weight: 700;
+					font-size: 17px;
+					a{
+						color: $secondary-color;
+					}
+				}
+			}
+			}
+	}
+}
+  /****************Team Main Css*****************/
+.team-main-section{
+	width: 100%;
+	.teams-main-grid{
+		width: 100%;
+		display: inline-block;
+		.all-teams-grid{
+			width: 26%;
+			background: hsla(216, 86%, 28%, 1);
+			background: linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+			background: -moz-linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+			background: -webkit-linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+			float: left;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+			.heading-div{
+				background-color: $primary-color;
+				border-top-left-radius:10px;
+				border-top-right-radius:10px;
+				h1{
+					color: $white;
+					text-align: center;
+					font-family: $heading-font;
+					font-size: 26px;
+					padding: 12px;
+				}
+			}
+			ul{
+				margin: 0;
+				padding: 0;
+				li{
+					list-style: none;
+					padding: 9px 16px;
+					border-bottom: 1px solid $primary-color;
+					transition: all 0.5s;
+					&:nth-last-child(1){
+						border-bottom: none;
+					}
+					&:hover{
+						background-color: $secondary-color;
+						transition: all 0.5s;
+						border-bottom: 1px solid $white;
+					}
+					&.active{
+						background-color: $secondary-color;
+						border-bottom: 1px solid $white;
+					}
+					a{
+						display: flex;
+						align-items: center;
+						.team-logo-div{
+							width: 50px;
+							height: 50px;
+							background-color: $white;
+							padding: 10px;
+							border-radius: 50px;
+							position: relative;
+							img{
+								width: 60%;
+								position: absolute;
+								left: 50%;
+								top: 50%;
+								transform: translate(-50%, -50%);
+							}
+						}
+						h1{
+							font-size: 16px;
+							color: $white;
+							font-family: $paragraph-font;
+							margin-left: 10px;
+							font-weight: 500;
+						}
+					}
+				}
+			}	
+		}
+		.team-info-wrapper{
+			width: 70%;	
+			float: right;
+			.team-info-grid{
+				width: 100%;
+				border-radius: 10px;
+				background: hsla(216, 86%, 28%, 1);
+				background: linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+				background: -moz-linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+				background: -webkit-linear-gradient(90deg, hsla(216, 86%, 28%, 1) 0%, hsla(215, 90%, 23%, 1) 75%);
+				display: inline-flex;
+				.team-info-grid-left{
+					width: 28%;
+					position: relative;
+					overflow: hidden;
+					border-top-left-radius: 10px;
+					border-bottom-left-radius: 10px;
+					.half-circle-div{
+						width: 130%;
+						height: 130%;
+						background-color: #ff6c00;
+						border-radius: 50%;
+						right: 0;
+						position: absolute;
+						top: -35px;
+	
+						img{
+							width: 42%;
+							position: absolute;
+							left: 57%;
+							top: 50%;
+							transform: translate(-50%, -50%);
+						}
+					}
+				}
+				.team-info-grid-right{
+					width: 70%;
+					padding: 17px 0 17px 25px;
+					&:after{
+						position: absolute;
+						content: url(../img/background-patches/tiger-vector1.png);
+						right: -269px;
+						top: -35px;
+						width: 100%;
+						height: 100%;
+						transform: scale(0.5);
+						opacity: 0.5;
+					}
+					h2{
+						color: $primary-color;
+						font-size: 30px;
+						font-family: $heading-font;
+					}
+					span{
+						font-size: 21px;
+						color:$primary-color;
+						font-weight: 600;
+						display: block;
+						margin-top: -3px
+					}
+					p{
+						@include common-paragraph;
+						color: $white;
+						line-height: 26px;
+						font-size: 15px;
+					}
+				}
+			}
+			.coming-soon-data{
+				width: 100%;
+				background-color: $background-color;
+				padding: 30px;
+				h1{
+					font-size: 20px;
+					text-align: center;
+					font-family: $paragraph-font;
+					color: $secondary-color;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}

@@ -8,7 +8,9 @@
 			if (scroll >= 10) {
 				header.removeClass('start-style').addClass("scroll-on");
 				topNavstrip.removeClass('d-block').addClass("d-none");
-			} else {
+			} 
+			
+			else {
 				header.removeClass("scroll-on").addClass('start-style');
 				topNavstrip.removeClass('d-none').addClass("d-block");
 			}

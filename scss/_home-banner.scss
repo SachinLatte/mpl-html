@@ -44,21 +44,39 @@
 	flex-direction: column;
 	h1{
 		color: $primary-color;
-		font-size: 90px;
+		font-size: 80px;
 		font-family: $heading-font;
 		text-transform: uppercase;
+		@include breakpoints(1600px){
+			font-size: 70px;
+		}
+		@include breakpoints(1366px){
+			font-size:55px;
+		}
+		@include breakpoints(500px){
+			font-size:32px;
+		}
 	}
 	p{
 		color: $white;
 		font-family: $heading-font;
 		text-transform: uppercase;
 		font-size: 35px;
+		@include breakpoints(1366px){
+			font-size:28px;
+		}
+		@include breakpoints(500px){
+			font-size:18px;
+		}
 	}
 }
 .owl-nav{
 	position: absolute;
     top: 50%;
     width: 100%;
+	@include breakpoints(500px){
+		display: none;
+	}
 	.owl-prev{
 		left: 15%;
 		bottom: -45px;
