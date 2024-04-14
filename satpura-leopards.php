@@ -11,7 +11,7 @@
       </div>
       <div class="teams-main-grid">
             <?php include "teams-aside-list.php" ?>
-            <div class="team-info-wrapper">
+            <div class="team-info-wrapper mt-2 mt-lg-0">
             <div class="team-info-grid">
                 <div class="team-info-grid-left">
                     <div class="half-circle-div">
@@ -19,13 +19,14 @@
                     </div>
                 </div>
                 <div class="team-info-grid-right position-relative">
-                    <h2 class="mb-md-3">Satpura Leopards</h2>
+                    <img src="img/team-logos/satpura-leopards-logo.png" alt="Satpura Leopards Logo" class="dl-none mb-2 mb-lg-0">
+                    <h2 class="mb-2 mb-md-3">Satpura Leopards</h2>
                     <p>Team Owner</p>
                     <span>John Doe</span>
-                    <p class="mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                 </div>
             </div>
-            <div class="coming-soon-data">
+            <div class="coming-soon-data mt-2 mt-lg-0">
                 <h1>Coming soon shortly...</h1>
             </div>
             </div>

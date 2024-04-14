@@ -28,7 +28,7 @@
                   <button class="btn"> <a href="about-us.php">Know More</a></button>
               </div>
           </div>
-          <div class="col-lg-6 col-sm-12 order-first order-sm-1">
+          <div class="col-lg-6 col-sm-12 order-first order-md-1 order-sm-1">
               <img src="img/about-right.png" alt="about right" class="w-100">
           </div>
         </div>

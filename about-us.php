@@ -12,11 +12,11 @@
           <div class="col-lg-6 col-sm-12 mt-4 mt-md-0">
               <div class="about-us-content">
                   <h1>About Us</h1>
-                  <p class="mt-3 mb-4">Madhya Pradesh League (MPL) for the SCindia Cup is a franchise-based professional T20 cricket league. It is organized by Gwalior Division Cricket Association (GDCA) under aegis of Madhya Pradesh Cricket Association (MPCA). It is the state's only official franchisee-based cricket league as approved by MPCA & BCCI. The league shall feature top players of the state (across IPL and international). Inspired by the success of India Premier League (IPL) The league will have world class production quality and broadcast. It is the grand exemplar of cricketainment Thrilling experience for local fans and audiences. The major aim of this league is to unearth new talents from the state.
+                  <p class="mt-3">Madhya Pradesh League (MPL) for the SCindia Cup is a franchise-based professional T20 cricket league. It is organized by Gwalior Division Cricket Association (GDCA) under aegis of Madhya Pradesh Cricket Association (MPCA). It is the state's only official franchisee-based cricket league as approved by MPCA & BCCI. The league shall feature top players of the state (across IPL and international). Inspired by the success of India Premier League (IPL) The league will have world class production quality and broadcast. It is the grand exemplar of cricketainment Thrilling experience for local fans and audiences. The major aim of this league is to unearth new talents from the state.
                   </p>
               </div>
           </div>
-          <div class="col-lg-6 col-sm-12 order-first order-sm-1">
+          <div class="col-lg-6 col-sm-12 order-first order-lg-1">
               <img src="img/about-right.png" alt="about right" class="w-100">
           </div>
         </div>

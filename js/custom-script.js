@@ -96,6 +96,9 @@ $('#home-player-carousel').owlCarousel( {
         768: {
             items: 2
         },
+        991: {
+            items: 3
+        },
         1170: {
             items: 4
         }

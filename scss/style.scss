@@ -22,7 +22,7 @@
 		max-width: 700px;;
 	}
 	@include breakpoints(500px){
-		max-width: 355px;;
+		max-width: 370px;
 	}
 	@include breakpoints(380px){
 		max-width: 325px;;
@@ -82,6 +82,9 @@
 		}
 		button{
 			@include common-button;
+		}
+		@include breakpoints(768px){
+			padding-right: 0;
 		}
 	}
 }
@@ -296,26 +299,38 @@ footer{
 	}
 	.main-widgets{
 		display: grid;
-		grid-auto-rows: 445px;
+		grid-auto-rows: 480px;
 		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-		grid-gap: 2em;
+		grid-gap: 4em;
 		.social-grid{
 			background-color: $background-color;
 			border-radius: 45px;
 			overflow: hidden;
-			// border-top-left-radius: 45px;
-			// border-top-right-radius: 45px;
 		}
-
+		@include breakpoints(1536px){
+			grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+			grid-gap: 3em;
+			width: 85%;
+			margin: 0 auto;
+		}
+		@include breakpoints(1366px){
+			grid-auto-rows: 415px;
+		}
 		@include breakpoints(1101px){
 			grid-auto-rows: 375px;
 			grid-template-columns: repeat(auto-fill, minmax(202px, 1fr));
+			width: 85%;
+			margin: 0 auto;
+			grid-gap: 2em;
 		}
 		@include breakpoints(768px){
 			grid-auto-rows: 300px;
+			width: 90%;
+			grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
 		}
 		@include breakpoints(500px){
-			grid-auto-rows: 270px;
+			grid-auto-rows: 300px;
+			grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
 		}
 	}
 }
@@ -419,6 +434,9 @@ overflow: hidden;
 				@include breakpoints(1366px){
 					left: -50px;
 				}
+				@include breakpoints(1024px){
+					left: 0px;
+				}
 				@include breakpoints(991px){
 					left: -40px;
 				}
@@ -438,6 +456,9 @@ overflow: hidden;
 				transform: rotate(180deg);
 				@include breakpoints(1366px){
 					right: -50px;
+				}
+				@include breakpoints(1024px){
+					right: 0px;
 				}
 				@include breakpoints(991px){
 					right: -40px;
@@ -474,7 +495,7 @@ overflow: hidden;
     background-size: cover;
 	cursor: pointer;
 	-webkit-animation: bounce .4s ease infinite alternate;
-			@include breakpoints(1024px){
+			@include breakpoints(1280px){
 			width: 40px;
 			height: 40px;
 		}
@@ -503,6 +524,12 @@ overflow: hidden;
     position: relative;
     z-index: 1;
     display: flex;
+	@include breakpoints(1536px){
+		margin-bottom: 4%;
+	}
+	@include breakpoints(460px){
+		margin-bottom: 10%;
+	}
     ul{
         margin: 0;
         padding: 0;
@@ -530,6 +557,9 @@ overflow: hidden;
                 font-family: $paragraph-font;
                 color: $black;
                 font-weight: 600;
+				@include breakpoints(460px){
+					font-size: 13px;
+				}
             }
             a.active{
                 color: $primary-color;
@@ -539,6 +569,21 @@ overflow: hidden;
   }
 .custom-class{
 	@include common-margin-padding;
+	@include breakpoints(1600px){
+		padding-top: 12%;
+	}
+	@include breakpoints(1280px){
+		margin-top: 1%;
+	}
+	@include breakpoints(1101px){
+		margin-top: 3%;
+	}
+	@include breakpoints(768px){
+		margin-top: 1%;
+	}
+	@include breakpoints(460px){
+		margin-top: 10%;
+	}
 }
 .common-bg{
 	background-image: url("../img/background-patches/patch3.png");
@@ -568,6 +613,12 @@ overflow: hidden;
 	.info-main-box{
 		width: 80%;
 		margin: 0 auto;
+		@include breakpoints(1101px){
+			width: 90%;
+		}
+		@include breakpoints(768px){
+			width: 100%;
+		}
 		.info-grid{
 			display: grid;
 			grid-auto-rows: auto;
@@ -575,11 +626,25 @@ overflow: hidden;
 			grid-gap: 5em;
 			margin-top: 12%;
 			text-align: center;
+			@include breakpoints(1470px){
+				margin-top: 10%;
+			}
+			@include breakpoints(1366px){
+				grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+			}
+			@include breakpoints(1101px){
+				grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+				grid-gap: 3em;
+				margin-top: 8%;
+			}
 			.grid-layout{
 				text-align: center;
 				padding: 25px;
-				border-radius: 10px;
 				cursor: pointer;
+				transition: all 0.5s ease;
+				@include breakpoints(768px){
+					padding: 15px;
+				}
 				&:after{
 					position: absolute;
 					content: "";
@@ -588,6 +653,35 @@ overflow: hidden;
 					background-color: $secondary-color;
 					right: -15%;
 					top: 12%;
+					@include breakpoints(1366px){
+						height: 65%;
+						right: -17%;
+						top: 18%;
+					}
+					@include breakpoints(1101px){
+						right: -10%;
+					}
+					@include breakpoints(768px){
+						right:-12%;
+					}
+				}
+				&:hover{
+					background-color: $secondary-color;
+					transition: all 0.5s ease;
+					border-radius: 10px;
+					-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 9px 9px rgba(0,0,0,0); 
+					box-shadow: 0px 10px 13px -7px #000000, 5px 5px 9px 9px rgba(0,0,0,0);
+				}
+				&:hover p a,&:hover p {
+					color: $white;
+				}
+				&:hover .svg-div{
+					transition: all 0.5s ease;
+					background-color:$primary-color;
+				}
+				&:hover .svg-div svg{
+					fill: $white;
+					transition: all 0.5s;
 				}
 				&:nth-last-child(1):after{
 					display: none;
@@ -599,14 +693,26 @@ overflow: hidden;
 					padding: 20px;
 					border-radius: 50px;
 					margin: 0 auto;
+					@include breakpoints(1101px){
+						width: 70px;
+						height: 70px;
+					}
 					svg{
 						width: 100%;
+						fill:$secondary-color;
+						transition: all 0.5s;
+						@include breakpoints(1101px){
+							width: 80%;
+						}
 					}
 				}
 				p{
 					@include common-paragraph;
 					font-weight: 700;
 					font-size: 17px;
+					@include breakpoints(1101px){
+						line-height: 26px;
+					}
 					a{
 						color: $secondary-color;
 					}
@@ -630,6 +736,9 @@ overflow: hidden;
 			float: left;
 			border-top-left-radius:10px;
 			border-top-right-radius:10px;
+			@include breakpoints(768px){
+				width: 100%;
+			}
 			.heading-div{
 				background-color: $primary-color;
 				border-top-left-radius:10px;
@@ -640,6 +749,10 @@ overflow: hidden;
 					font-family: $heading-font;
 					font-size: 26px;
 					padding: 12px;
+					@include breakpoints(1101px){
+					font-size: 24px;
+					padding: 10px;
+					}
 				}
 			}
 			ul{
@@ -694,6 +807,10 @@ overflow: hidden;
 		.team-info-wrapper{
 			width: 70%;	
 			float: right;
+			@include breakpoints(768px){
+				width: 100%;
+				margin-top: 2%;
+			}
 			.team-info-grid{
 				width: 100%;
 				border-radius: 10px;
@@ -723,12 +840,29 @@ overflow: hidden;
 							left: 57%;
 							top: 50%;
 							transform: translate(-50%, -50%);
+							@include breakpoints(1101px){
+								width: 45%;
+								}
 						}
+					}
+					@include breakpoints(500px){
+						display: none;
 					}
 				}
 				.team-info-grid-right{
 					width: 70%;
 					padding: 17px 0 17px 25px;
+					@include breakpoints(500px){
+						width: 100%;
+						padding: 20px;
+					}
+					.dl-none{
+						display: none;
+						@include breakpoints(500px){
+							display: block;
+							width: 20%;
+						}
+					}
 					&:after{
 						position: absolute;
 						content: url(../img/background-patches/tiger-vector1.png);
@@ -738,11 +872,24 @@ overflow: hidden;
 						height: 100%;
 						transform: scale(0.5);
 						opacity: 0.5;
+						@include breakpoints(1280px){
+							right:-230px
+						}
+						@include breakpoints(1101px){
+							right:-185px;
+							transform: scale(0.4);
+						}
+						@include breakpoints(768px){
+							display: none;
+						}
 					}
 					h2{
 						color: $primary-color;
 						font-size: 30px;
 						font-family: $heading-font;
+						@include breakpoints(1101px){
+							font-size: 28px;
+							}
 					}
 					span{
 						font-size: 21px;
@@ -756,6 +903,9 @@ overflow: hidden;
 						color: $white;
 						line-height: 26px;
 						font-size: 15px;
+						@include breakpoints(1101px){
+							line-height: 24px;
+							}
 					}
 				}
 			}
