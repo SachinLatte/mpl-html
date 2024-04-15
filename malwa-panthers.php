@@ -22,8 +22,8 @@
                     <img src="img/team-logos/malwa-panthers-logo.png" alt="Malwa Panthers Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Malwa Panthers</h2>
                     <p>Team Owner</p>
-                    <span>John Doe</span>
-                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <span>To be announced soon</span>
+                    <p class="mt-2 mt-md-3">Malwa, one of the most historically & administratively important region of Madhya Pradesh coupled with the fearless spirit, rarity and courage to conquer the field of a Panther, it amplifies imminent danger for other teams. Indore, the capital of Malwa, is home to many cricketers like Avesh Khan, Venkatesh Iyer, C. K. Nayudu, Shubham Sharma, Jalaj Saxena and many more.</p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">

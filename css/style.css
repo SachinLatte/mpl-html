@@ -437,7 +437,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 150%;
+  padding: 0;
+  height: 100%;
 }
 #owlHero.owl-carousel .home-banner-content {
   width: 100%;
@@ -450,7 +451,7 @@ p {
 }
 #owlHero.owl-carousel .home-banner-content h1 {
   color: #ff6c00;
-  font-size: 80px;
+  font-size: 70px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
@@ -517,12 +518,6 @@ p {
   transform: rotate(180deg);
 }
 
-@media (min-height: 700px) {
-  #owlHero.owl-carousel .owl-lazy {
-    height: 100%;
-    padding: 0;
-  }
-}
 #eapps-instagram-feed-1 {
   width: 100% !important;
 }
@@ -1059,7 +1054,7 @@ footer p {
 }
 @media (max-width: 500px) {
   .social-media-widgets .main-widgets {
-    grid-auto-rows: 300px;
+    grid-auto-rows: 400px;
     grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   }
 }
@@ -1438,6 +1433,11 @@ footer p {
 .contact-us .right-img img {
   border-radius: 30px;
 }
+@media (max-width: 500px) {
+  .contact-us .right-img {
+    display: none;
+  }
+}
 .contact-us .info-main-box {
   width: 80%;
   margin: 0 auto;
@@ -1477,6 +1477,12 @@ footer p {
     margin-top: 8%;
   }
 }
+@media (max-width: 500px) {
+  .contact-us .info-main-box .info-grid {
+    grid-gap: 1em;
+    margin-top: 4%;
+  }
+}
 .contact-us .info-main-box .info-grid .grid-layout {
   text-align: center;
   padding: 25px;
@@ -1512,6 +1518,11 @@ footer p {
 @media (max-width: 768px) {
   .contact-us .info-main-box .info-grid .grid-layout:after {
     right: -12%;
+  }
+}
+@media (max-width: 500px) {
+  .contact-us .info-main-box .info-grid .grid-layout:after {
+    display: none;
   }
 }
 .contact-us .info-main-box .info-grid .grid-layout:hover {
@@ -1557,6 +1568,11 @@ footer p {
 @media (max-width: 1101px) {
   .contact-us .info-main-box .info-grid .grid-layout .svg-div svg {
     width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .contact-us .info-main-box .info-grid .grid-layout .svg-div svg {
+    width: 100%;
   }
 }
 .contact-us .info-main-box .info-grid .grid-layout p {

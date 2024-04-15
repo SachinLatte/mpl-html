@@ -6,7 +6,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="javascript:void(0)">Teams</a></li>
-                <li><a href="javascript:void(0)" class="active">Satpura Leopards</a></li>
+                <li><a href="javascript:void(0)" class="active">Bhopal Leopards</a></li>
             </ul>
       </div>
       <div class="teams-main-grid">
@@ -15,15 +15,15 @@
             <div class="team-info-grid">
                 <div class="team-info-grid-left">
                     <div class="half-circle-div">
-                        <img src="img/team-logos/satpura-leopards-logo.png" alt="Satpura Leopards Logo">
+                        <img src="img/team-logos/bhopal-leopards-logo.png" alt="Bhopal Leopards Logo">
                     </div>
                 </div>
                 <div class="team-info-grid-right position-relative">
-                    <img src="img/team-logos/satpura-leopards-logo.png" alt="Satpura Leopards Logo" class="dl-none mb-2 mb-lg-0">
-                    <h2 class="mb-2 mb-md-3">Satpura Leopards</h2>
+                    <img src="img/team-logos/bhopal-leopards-logo.png" alt="Bhopal Leopards Logo" class="dl-none mb-2 mb-lg-0">
+                    <h2 class="mb-2 mb-md-3">Bhopal Leopards</h2>
                     <p>Team Owner</p>
-                    <span>John Doe</span>
-                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <span>To be announced soon</span>
+                    <p class="mt-2 mt-md-3">Amidst the calmness in the city of lakes, the leopards are crouching with its hind legs folded inwards ready to take a swish. The Bhopal Leopards true to their name are known for their ability to adapt, agility and strategic gameplay. Bhopal is also home to cricketers like M.K.Pataudi, Jai Prakash Yadav, Ricky Bhui & others.</p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">

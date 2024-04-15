@@ -15,7 +15,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4404.585112133151!2d78.18100137607752!3d26.209709089946802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c41e66cace51%3A0x17059c5dfc21aa01!2sCaptain%20Roop%20Singh%20Cricket%20Stadium!5e1!3m2!1sen!2sin!4v1713002780696!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-3 mt-lg-0">
                 <div class="right-img">
                     <img src="img/contact-us-right-img.jpg" alt="stadium image" class="w-100">
                 </div>
@@ -25,8 +25,6 @@
         <div class="info-grid">
             <div class="grid-layout position-relative">
                 <div class="svg-div mb-2 mb-md-3">
-                <?xml version="1.0" encoding="iso-8859-1"?>
-                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                     viewBox="0 0 395.71 395.71"
                     xml:space="preserve">
@@ -42,8 +40,6 @@
             </div>
             <div class="grid-layout position-relative">
                 <div class="svg-div mb-2 mb-md-3">
-                <?xml version="1.0" encoding="utf-8"?>
-            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
                 <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                     viewBox="0 0 512 512"  xml:space="preserve">
                 <g>
@@ -64,7 +60,6 @@
             </div>
             <div class="grid-layout position-relative">
                 <div class="svg-div mb-2 mb-md-3">
-                <?xml version="1.0" encoding="iso-8859-1"?>
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                     viewBox="0 0 495.622 495.622" xml:space="preserve">
                 <g>

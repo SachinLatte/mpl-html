@@ -4,15 +4,21 @@
   <div id="owlHero" class="owl-carousel">
     <div class="owl-lazy" data-src="img/home-banner-one.jpg" alt="">
         <div class="home-banner-content">
-            <h1>MAdhya pradesh league</h1>
-            <p class="mt-3">Madhya Pradesh league, Its Wildlife </p>
+            <h1 class="text-center">Madhya Pradesh League by <br> Scindia Cup</h1>
+            <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
         </div>
       </div>
       <div class="owl-lazy" data-src="img/home-banner-two.jpg" alt="">
         <div class="home-banner-content">
-              <h1>MAdhya pradesh league</h1>
-              <p class="mt-3">Madhya Pradesh league, Its Wildlife </p>
+              <h1 class="text-center">Featuring top players of <br> the state</h1>
+              <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
           </div>
+      </div>
+      <div class="owl-lazy" data-src="img/home-banner-one.jpg" alt="">
+        <div class="home-banner-content">
+            <h1 class="text-center">World class production <br> quality & broadcast</h1>
+            <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
+        </div>
       </div>
   </div>
 </section>
@@ -23,7 +29,7 @@
           <div class="col-lg-6 col-sm-12 mt-4 mt-md-0">
               <div class="about-us-content">
                   <h1>About Us</h1>
-                  <p class="mt-3 mb-4">Madhya Pradesh League (MPL) for the SCindia Cup is a franchise-based professional T20 cricket league. It is organized by Gwalior Division Cricket Association (GDCA) under aegis of Madhya Pradesh Cricket Association (MPCA). It is the state's only official franchisee-based cricket league as approved by MPCA & BCCI. The league shall feature top players of the state (across IPL and international). Inspired by the success of India Premier League (IPL) The league will have world class production quality and broadcast. It is the grand exemplar of cricketainment Thrilling experience for local fans and audiences. The major aim of this league is to unearth new talents from the state.
+                  <p class="mt-3 mb-4">Madhya Pradesh League (MPL) for the Scindia Cup is a franchise-based professional T20 cricket league. It is organized by Gwalior Division Cricket Association (GDCA) under aegis of Madhya Pradesh Cricket Association (MPCA). It is the state's only official franchisee-based cricket league as approved by MPCA & BCCI. The league shall feature top players of the state (across IPL and international). Inspired by the success of India Premier League (IPL), the league will have world class production quality and broadcast. It is the grand exemplar of cricketainment thrilling experience for local fans and audiences. The major aim of this league is to unearth new talents from the state.
                   </p>
                   <button class="btn"> <a href="about-us.php">Know More</a></button>
               </div>
@@ -157,7 +163,7 @@
 </div>
 <div class="item">
   <div class="team-logo-img">
-      <img src="img/team-logos/satpura-leopards-logo.png" alt="satpura-leopards-logo">
+      <img src="img/team-logos/bhopal-leopards-logo.png" alt="satpura-leopards-logo">
   </div>
 </div>
 </div>

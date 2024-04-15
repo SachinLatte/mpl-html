@@ -22,8 +22,8 @@
                     <img src="img/team-logos/jabalpur-lions-logo.png" alt="Jabalpur Lions Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Jabalpur Lions</h2>
                     <p>Team Owner</p>
-                    <span>John Doe</span>
-                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <span>To be announced soon</span>
+                    <p class="mt-2 mt-md-3">Representing the city of Jabalpur, this franchise amplifies the regal legacy & power. The city situated on the banks of River Narmada is a blend of culture, river ghats, wide highways, and a quaint surrounding and home to Marble Rocks, one of the most spectacular natural sites in the country. This Jabalpur based franchise is mighty, ferocious and focused. These pride of lions get aggressive when their authority is challenged.</p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">

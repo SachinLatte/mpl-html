@@ -29,11 +29,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="satpura-leopards.php">
+                            <a href="bhopal-leopards.php">
                                 <div class="team-logo-div">
-                                    <img src="img/team-logos/satpura-leopards-logo.png" alt="Satpura Leopards Logo">
+                                    <img src="img/team-logos/bhopal-leopards-logo.png" alt="Bhopal Leopards Logo">
                                 </div>
-                                <h1>Satpura Leopards</h1>
+                                <h1>Bhopal Leopards</h1>
                             </a>
                         </li>
                         <li>

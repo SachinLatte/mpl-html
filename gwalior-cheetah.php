@@ -22,8 +22,8 @@
                     <img src="img/team-logos/gwalior-cheetah-logo.png" alt="Gwalior Cheetahs Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Gwalior Cheetah</h2>
                     <p>Team Owner</p>
-                    <span>John Doe</span>
-                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <span>To be announced soon</span>
+                    <p class="mt-2 mt-md-3">Built for speed, they are swift, energetic, adventurous & risk takers, the Gwalior Cheetahs are amplifies agility, precision and quick thinking. The franchise represents the city of Gwalior, home to Captain Roop Singh Stadium that witnessed the world's first double century in ODI scored by the little master 'Sachin Tendulkar'. Gwalior is also home to many professional cricketers including the likes of Ankit Sharma.</p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">

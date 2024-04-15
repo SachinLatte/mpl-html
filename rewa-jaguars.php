@@ -22,8 +22,8 @@
                     <img src="img/team-logos/rewa-jaguars-logo.png" alt="Rewa Jaguars Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Rewa Jaguars</h2>
                     <p>Team Owner</p>
-                    <span>John Doe</span>
-                    <p class="mt-2 mt-md-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <span>To be announced soon</span>
+                    <p class="mt-2 mt-md-3">Rewa Jaguars true to their name stands for strength, tenacity and commitment to excellence. Home to cricketers like Ishwar Pandey, Kuldeep Sen, Saumy Pandey and many more, the Jaguars are on a prowl.</p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">

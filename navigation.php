@@ -41,7 +41,7 @@
 										<a class="dropdown-item" href="gwalior-cheetah.php">Gwalior Cheetah</a>
 										<a class="dropdown-item" href="jabalpur-lions.php">Jabalpur Lions</a>
 										<a class="dropdown-item" href="malwa-panthers.php">Malwa Panthers</a>
-										<a class="dropdown-item" href="satpura-leopards.php">Satpura Leopards</a>
+										<a class="dropdown-item" href="bhopal-leopards.php">Bhopal Leopards</a>
 										<a class="dropdown-item" href="rewa-jaguars.php">Rewa Jaguars</a>
 									</div>
 								</li>

@@ -9,9 +9,13 @@
             </div>
             <div class="social-grid">
                 <img src="img/fb.png" alt="">
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-e96c5c84-602a-4433-8bae-c63884a07cd0" data-elfsight-app-lazy></div>
             </div>
             <div class="social-grid">
                 <img src="img/twitter.png" alt="">
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-84d62604-fc59-4f01-9f96-ead9dcbb10b9" data-elfsight-app-lazy></div>
             </div>
         </div>
     </div>
@@ -23,22 +27,22 @@
             <div class="col-md-3 col-sm-12 mb-4 mb-lg-0">
                 <h3 class="mb-3 mb-lg-4">Quick Links</h3>
                 <ul>
-                    <li><a href="javascript:void(0)">Home</a></li>
-                    <li><a href="javascript:void(0)">About Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
                     <li><a href="javascript:void(0)">Teams</a></li>
                     <li><a href="javascript:void(0)">Fixtures</a></li>
                     <li><a href="javascript:void(0)">Results</a></li>
-                    <li><a href="javascript:void(0)">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
             <div class="col-md-3 col-sm-12 mb-4 mb-lg-0">
                 <h3 class="mb-3 mb-lg-4">Teams</h3>
                 <ul>
-                    <li><a href="javascirpt:void(0)">Gwalior Cheetah</a></li>
-                    <li><a href="javascirpt:void(0)">Jabalpur Lions</a></li>
-                    <li><a href="javascirpt:void(0)">Malwa Panthers</a></li>
-                    <li><a href="javascirpt:void(0)">Satpura Leopards</a></li>
-                    <li><a href="javascirpt:void(0)">Rewa Jaguars</a></li>
+                    <li><a href="gwalior-cheetah.php">Gwalior Cheetah</a></li>
+                    <li><a href="jabalpur-lions.php">Jabalpur Lions</a></li>
+                    <li><a href="malwa-partners.php">Malwa Panthers</a></li>
+                    <li><a href="bhopal-leopards.php">Bhopal Leopards</a></li>
+                    <li><a href="rewa-jaguars.php">Rewa Jaguars</a></li>
                 </ul>                   
             </div> 
             <div class="col-md-3 col-sm-12 mb-4 mb-lg-0">
