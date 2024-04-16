@@ -130,16 +130,25 @@ topBtn.on('click', function(e) {
 
 
  //Active navigation class
-  (function () {
-    var current = location.pathname.split('/')[1];
-    if (current === "") return;
-    var menuItems = document.querySelectorAll('.main-menubar ul li');
-    for (var i = 0, len = menuItems.length; i < len; i++) {
-        if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
-            menuItems[i].className += "active";
-        }
-    }
-})();
+//   (function () {
+//     var current = location.pathname.split('/')[1];
+//     if (current === "") return;
+//     var menuItems = document.querySelectorAll('.main-menubar ul li');
+//     for (var i = 0, len = menuItems.length; i < len; i++) {
+//         if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
+//             menuItems[i].className += "active";
+//         }
+//     }
+// })();
+
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('.main-menubar ul li');
+const menuLength = menuItem.length
+for (let i = 0; i<menuLength; i++){
+if(menuitem[i].href === currentLocation){
+menuItem[i].className = "active"
+}
+}
 
 
 

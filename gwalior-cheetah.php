@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php include "navigation.php" ?>
+<?php $page = 'gwalior-cheetah'; include "navigation.php" ?>
 <section class="team-main-section  custom-class common-bg">
     <div class="custom-container">
     <div class="page-breadcrumbs">

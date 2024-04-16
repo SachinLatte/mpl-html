@@ -289,6 +289,9 @@ p {
   font-size: 15px;
   text-transform: uppercase;
 }
+.nav-link i {
+  display: inline-block;
+}
 @media (max-width: 1366px) {
   .nav-link {
     font-size: 14px;
@@ -319,6 +322,9 @@ p {
 .nav-item:hover .nav-link {
   color: #ff6c00 !important;
 }
+.nav-item:hover .nav-link i {
+  transform: rotate(180deg);
+}
 .nav-item:hover:after {
   bottom: 0;
   opacity: 1;
@@ -341,9 +347,6 @@ p {
     opacity: 1;
     bottom: 0;
   }
-}
-.nav-item:nth-last-child(1):after {
-  display: none;
 }
 
 .nav-item.active .nav-link {

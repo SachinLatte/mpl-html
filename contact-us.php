@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php include "navigation.php" ?>
+<?php $page = 'contact-us'; include "navigation.php" ?>
 <section class="contact-us custom-class common-bg">
     <div class="custom-container">
     <div class="page-breadcrumbs">

@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php include "navigation.php" ?>
+<?php $page = 'home'; include "navigation.php" ?>
 <section class="homepage-banner">
   <div id="owlHero" class="owl-carousel">
     <div class="owl-lazy" data-src="img/home-banner-one.jpg" alt="">

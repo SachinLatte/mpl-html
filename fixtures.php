@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php $page = 'coming-soon'; include "navigation.php" ?>
+<?php $page = 'fixtures'; include "navigation.php" ?>
 <section class="team-main-section coming-soon  custom-class common-bg position-relative">
     <div class="custom-container">
     <div class="page-breadcrumbs">
