@@ -569,6 +569,13 @@ overflow: hidden;
             float: left;
             padding: 0 10px;
             position: relative;
+			font-size: 14px;
+			font-family: $paragraph-font;
+			font-weight: 600;
+			@include breakpoints(460px){
+				font-size: 13px;
+			}
+
             &:nth-child(1):before{
                 display: none;
             }
@@ -576,7 +583,7 @@ overflow: hidden;
                 content: "";
                 display: block;
                 position: absolute;
-                top: 8px;
+                top: 6px;
                 left: -3px;
                 background: url(../img/right_arrow.jpg);
                 background-size: 30%;
@@ -589,13 +596,10 @@ overflow: hidden;
                 font-family: $paragraph-font;
                 color: $black;
                 font-weight: 600;
-				@include breakpoints(460px){
-					font-size: 13px;
-				}
             }
-            a.active{
+            }
+			li.active{
                 color: $primary-color;
-            }
             }
         }
   }
@@ -984,6 +988,48 @@ display: none;
 					font-family: $paragraph-font;
 					color: $secondary-color;
 					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+/****************Photo Gallery Css*****************/
+.gallery-section{
+	width: 100%;
+	h1{
+		@include common-heading;
+	}
+	#photo-lightgallery{
+		display: grid;
+		grid-auto-rows: 260px;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		grid-gap: 1em;
+		.photo-lightgallery{
+			a{
+				display: block;
+				overflow: hidden;
+				position: relative;
+				&:hover img{
+					scale: 1;
+					transition: all 0.5s;
+				}
+				img{
+					width: 100%;
+					scale:1.1;
+					transition: all 0.5s;
+				}
+				.gallery-info{
+					position: absolute;
+					top: 0;
+					width: 100%;
+					display: flex;
+					padding: 10px;
+					h4{
+						color:$white;
+						font-size: 18px;
+						font-family: $paragraph-font;
+					}
 				}
 			}
 		}

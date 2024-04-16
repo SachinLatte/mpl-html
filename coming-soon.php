@@ -5,7 +5,7 @@
     <div class="page-breadcrumbs">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="javascript:void(0)" class="active">Coming Soon</a></li>
+                <li class="active">Coming Soon</li>
             </ul>
       </div>
         <div class="coming-soon-heading">

@@ -6,7 +6,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="javascript:void(0)">Teams</a></li>
-                <li><a href="javascript:void(0)" class="active">Bhopal Leopards</a></li>
+                <li class="active">Bhopal Leopards</li>
             </ul>
       </div>
       <div class="teams-main-grid">

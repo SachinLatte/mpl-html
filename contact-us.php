@@ -5,7 +5,7 @@
     <div class="page-breadcrumbs">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="javascript:void(0)" class="active">Contact Us</a></li>
+            <li class="active">Contact Us</li>
         </ul>
       </div>
         <h1 class="mb-4 mb-lg-5">Contact Us</h1>

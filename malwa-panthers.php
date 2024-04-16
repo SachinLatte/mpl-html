@@ -6,7 +6,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="javascript:void(0)">Teams</a></li>
-                <li><a href="javascript:void(0)" class="active">Malwa Panthers</a></li>
+                <li class="active">Malwa Panthers</li>
             </ul>
       </div>
       <div class="teams-main-grid">

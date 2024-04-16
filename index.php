@@ -4,7 +4,7 @@
   <div id="owlHero" class="owl-carousel">
     <div class="owl-lazy" data-src="img/home-banner-one.jpg" alt="">
         <div class="home-banner-content">
-            <h1 class="text-center">Madhya Pradesh League by <br> Scindia Cup</h1>
+            <h1 class="text-center">Madhya Pradesh League <br> Scindia Cup</h1>
             <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
         </div>
       </div>
@@ -14,7 +14,7 @@
               <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
           </div>
       </div>
-      <div class="owl-lazy" data-src="img/home-banner-one.jpg" alt="">
+      <div class="owl-lazy" data-src="img/home-banner-three.jpg" alt="">
         <div class="home-banner-content">
             <h1 class="text-center">World class production <br> quality & broadcast</h1>
             <!-- <p class="mt-3">Madhya Pradesh league, Its Wildlife </p> -->
@@ -74,18 +74,7 @@
     </div>
   <div class="item-details">
       <h2 class="mb-1">RAVI PATANKAR</h2>
-      <span>CEO & CONVENOR</span>
-    </div>
-  </div>
-</div>
-<div class="item">
-  <div class="shadow-effect">
-    <div class="img-div position-relative">
-    <img class="img-responsive" src="img/governing-council-4.jpg" alt="governing council 4">
-    </div>
-  <div class="item-details">
-      <h2 class="mb-1">PRASOON KANMADIKAR</h2>
-      <span>CEO & CONVENOR</span>
+      <span>CEO & CONVENOR , Governing Council</span>
     </div>
   </div>
 </div>
@@ -96,7 +85,16 @@
     </div>
   <div class="item-details">
       <h2 class="mb-1">RAJEEV RISODKAR</h2>
-      <span>CEO & CONVENOR</span>
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="shadow-effect">
+    <div class="img-div position-relative">
+    <img class="img-responsive" src="img/governing-council-4.jpg" alt="governing council 4">
+    </div>
+  <div class="item-details">
+      <h2 class="mb-1">PRASOON KANMADIKAR</h2>
     </div>
   </div>
 </div>
@@ -107,11 +105,10 @@
     </div>
   <div class="item-details">
       <h2 class="mb-1">ROHIT PANDIT</h2>
-      <span>CEO & CONVENOR</span>
     </div>
   </div>
 </div>
-<div class="item">
+<!-- <div class="item">
   <div class="shadow-effect">
     <div class="img-div position-relative">
     <img class="img-responsive" src="img/governing-council-7.jpg" alt="governing council 7">
@@ -121,7 +118,7 @@
       <span>CEO & CONVENOR</span>
     </div>
   </div>
-</div>
+</div> -->
 <div class="item">
   <div class="shadow-effect">
     <div class="img-div position-relative">
@@ -129,7 +126,6 @@
     </div>
   <div class="item-details">
       <h2 class="mb-1">SANJAY AHUJA</h2>
-      <span>CEO & CONVENOR</span>
     </div>
   </div>
 </div>
@@ -172,7 +168,7 @@
 <!--home team section end-->
 <section class="home-player-section">
   <div class="custom-container">
-  <h1 class="text-center mb-4 mb-lg-5">Marquee Players</h1>
+  <h1 class="text-center mb-4 mb-lg-5">Star Players</h1>
   <div id="home-player-carousel" class="owl-carousel">
 <div class="item">
   <div class="shadow-effect">
@@ -188,10 +184,10 @@
 <div class="item">
   <div class="shadow-effect">
     <div class="img-div">
-      <img src="img/marquee-players/player2.png" alt="player 1">
+      <img src="img/marquee-players/player2.png" alt="player 2">
     </div>
     <div class="item-details">
-      <h4>Rajat Patidar</h4>
+      <h4>Avesh Khan</h4>
       <button><a href="javascript:void(0)">View Profile</a></button>
     </div>
   </div>
@@ -199,10 +195,10 @@
 <div class="item">
   <div class="shadow-effect">
     <div class="img-div">
-      <img src="img/marquee-players/player3.png" alt="player 1">
+      <img src="img/marquee-players/player3.png" alt="player 3">
     </div>
     <div class="item-details">
-      <h4>Rajat Patidar</h4>
+      <h4>Saransh Jain</h4>
       <button><a href="javascript:void(0)">View Profile</a></button>
     </div>
   </div>
@@ -210,10 +206,10 @@
 <div class="item">
   <div class="shadow-effect">
     <div class="img-div">
-      <img src="img/marquee-players/player4.png" alt="player 1">
+      <img src="img/marquee-players/player4.png" alt="player 4">
     </div>
     <div class="item-details">
-      <h4>Rajat Patidar</h4>
+      <h4>Shubham Sharma</h4>
       <button><a href="javascript:void(0)">View Profile</a></button>
     </div>
   </div>
@@ -221,10 +217,21 @@
 <div class="item">
   <div class="shadow-effect">
     <div class="img-div">
-      <img src="img/marquee-players/player5.png" alt="player 1">
+      <img src="img/marquee-players/player5.png" alt="player 5">
     </div>
     <div class="item-details">
-      <h4>Rajat Patidar</h4>
+      <h4>Arshad Khan</h4>
+      <button><a href="javascript:void(0)">View Profile</a></button>
+    </div>
+  </div>
+</div>
+<div class="item">
+  <div class="shadow-effect">
+    <div class="img-div">
+      <img src="img/marquee-players/player6.png" alt="player 6">
+    </div>
+    <div class="item-details">
+      <h4>Venkatesh Iyer</h4>
       <button><a href="javascript:void(0)">View Profile</a></button>
     </div>
   </div>
