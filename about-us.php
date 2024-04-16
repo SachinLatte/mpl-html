@@ -119,4 +119,19 @@
   </div>
 </section>
 <!--governing-council section end-->
+<section class="about-mpc common-bg position-relative">
+  <div class="custom-container">
+    <h1 class="text-left mb-3 mb-lg-4">About Madhya Pradesh Cricket</h1>
+    <ul>
+      <li>Madhya Pradesh are 5 time winners of Ranji Trophy</li>
+      <li>Most recently Madhya Pradesh won the Ranji Trophy in 2021-22</li>
+      <li>Madhya Pradesh were the semi finalists for the last two Ranji Trophy seasons (2022-23, 2023-24)</li>
+      <li>In 2010, Sachin Tendulkar created history by scoring the first double century in Men's ODI  <br> cricket at Captain Roop Singh Stadium, Gwalior</li>
+    </ul>
+  </div>
+  <div class="about-mpc-right">
+
+  </div>
+</section>
+<!--about mpc section end-->
 <?php include "footer.php" ?>

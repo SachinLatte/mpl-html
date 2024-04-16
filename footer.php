@@ -29,9 +29,9 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="javascript:void(0)">Teams</a></li>
-                    <li><a href="javascript:void(0)">Fixtures</a></li>
-                    <li><a href="javascript:void(0)">Results</a></li>
+                    <li><a href="coming-soon.php">Teams</a></li>
+                    <li><a href="coming-soon.php">Fixtures</a></li>
+                    <li><a href="coming-soon.php">Results</a></li>
                     <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
@@ -48,11 +48,11 @@
             <div class="col-md-3 col-sm-12 mb-4 mb-lg-0">
                 <h3 class="mb-3 mb-lg-4">Guidelines</h3>
                 <ul>
-                    <li><a href="javascirpt:void(0)">MPL Code Of Conduct</a></li>
-                    <li><a href="javascirpt:void(0)">Privacy Policy</a></li>
-                    <li><a href="javascirpt:void(0)">Terms Of Use</a></li>
-                    <li><a href="javascirpt:void(0)">Governing Council</a></li>
-                    <li><a href="javascirpt:void(0)">Anti Corruption Policy</a></li>
+                    <li><a href="coming-soon.php">MPL Code Of Conduct</a></li>
+                    <li><a href="coming-soon.php">Privacy Policy</a></li>
+                    <li><a href="coming-soon.php">Terms Of Use</a></li>
+                    <li><a href="coming-soon.php">Governing Council</a></li>
+                    <li><a href="coming-soon.php">Anti Corruption Policy</a></li>
                 </ul>  
             </div>
             <div class="col-md-3 col-sm-12">

@@ -46,13 +46,13 @@
 									</div>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false">Fixtures</a>
+									<a class="nav-link" href="coming-soon.php" >Fixtures</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="javascript:void(0)">Results</a>
+									<a class="nav-link" href="coming-soon.php">Results</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="javascript:void(0)">Gallery</a>
+									<a class="nav-link" href="coming-soon.php">Gallery</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link" href="contact-us.php">Contact Us</a>

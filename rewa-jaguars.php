@@ -23,11 +23,11 @@
                     <h2 class="mb-2 mb-md-3">Rewa Jaguars</h2>
                     <p>Team Owner</p>
                     <span>To be announced soon</span>
-                    <p class="mt-2 mt-md-3">Rewa Jaguars true to their name stands for strength, tenacity and commitment to excellence. Home to cricketers like Ishwar Pandey, Kuldeep Sen, Saumy Pandey and many more, the Jaguars are on a prowl.</p>
+                    <p class="mt-2 mt-md-3">Rewa Jaguars true to their name stands for strength, tenacity and commitment to excellence. Home to cricketers like Ishwar Pandey, Kuldeep Sen, <strong> Himanshu Mantri</strong>, Saumy Pandey and many more, the Jaguars are on a prowl. <strong>One of India's top most women cricketer Pooja Vastrakar</strong> </p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">
-                <h1>Coming soon shortly...</h1>
+                <h1>Coming soon..</h1>
             </div>
             </div>
       </div>

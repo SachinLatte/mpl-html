@@ -48,8 +48,8 @@
     position: absolute;
 	flex-direction: column;
 	h1{
-		color: $primary-color;
-		font-size: 70px;
+		color: $white;
+		font-size: 65px;
 		font-family: $heading-font;
 		text-transform: uppercase;
 		@include breakpoints(1600px){

@@ -450,8 +450,8 @@ p {
   flex-direction: column;
 }
 #owlHero.owl-carousel .home-banner-content h1 {
-  color: #ff6c00;
-  font-size: 70px;
+  color: #fff;
+  font-size: 65px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
@@ -698,6 +698,65 @@ p {
   .about-us-section .about-us-content {
     padding-right: 0;
   }
+}
+
+.about-mpc {
+  width: 100%;
+  overflow: hidden;
+  padding: 4% 0;
+}
+@media (max-width: 500px) {
+  .about-mpc {
+    padding: 7% 0;
+  }
+}
+.about-mpc h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  color: #ff6c00;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+@media (max-width: 1366px) {
+  .about-mpc h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .about-mpc h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .about-mpc h1 {
+    font-size: 26px;
+  }
+}
+.about-mpc ul li {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 500;
+  color: #002957;
+  list-style: disc;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+@media (max-width: 500px) {
+  .about-mpc ul li {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+}
+.about-mpc .about-mpc-right {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  right: -130px;
+  top: 0;
+  transform: skewX(30deg);
+  background-image: url("../img/background-patches/patch3.png");
 }
 
 /******************Governing Council Css*****************/
@@ -1395,6 +1454,11 @@ footer p {
   background-size: cover;
 }
 
+.coming-soon {
+  height: 100vh;
+  width: 100%;
+}
+
 /****************Contact Us Css*****************/
 .contact-us {
   width: 100%;
@@ -1607,6 +1671,24 @@ footer p {
 .team-main-section {
   width: 100%;
 }
+.team-main-section .coming-soon-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.team-main-section .coming-soon-heading h1 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  color: #002957;
+  font-weight: 500;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .team-main-section .coming-soon-heading h1 {
+    font-size: 30px;
+  }
+}
 .team-main-section .teams-main-grid {
   width: 100%;
   display: inline-block;
@@ -1728,7 +1810,7 @@ footer p {
   top: -35px;
 }
 .team-main-section .teams-main-grid .team-info-wrapper .team-info-grid .team-info-grid-left .half-circle-div img {
-  width: 42%;
+  width: 45%;
   position: absolute;
   left: 57%;
   top: 50%;

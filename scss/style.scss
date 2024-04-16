@@ -88,7 +88,39 @@
 		}
 	}
 }
-
+.about-mpc{
+	width: 100%;
+	overflow: hidden;
+	@include common-padding;
+	h1{
+		@include common-heading;
+	}
+	ul{
+		li{
+			text-align: left;
+			font-size: 17px;
+			font-weight: 500;
+			color: $secondary-color;
+			list-style: disc;
+			margin-left: 15px;
+			margin-bottom: 15px;
+			line-height: 30px;	
+			@include breakpoints(500px){
+				font-size: 15px;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.about-mpc-right{
+		width: 35%;
+		height: 100%;
+		position: absolute;
+		right: -130px;
+		top: 0;
+		transform: skewX(30deg);
+		background-image: url("../img/background-patches/patch3.png");
+	}
+}
 
 /******************Governing Council Css*****************/
 .governing-council{
@@ -590,6 +622,10 @@ overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.coming-soon{
+	height: 100vh;
+	width: 100%;
+}
   /****************Contact Us Css*****************/
 .contact-us{
 	width: 100%;
@@ -737,6 +773,22 @@ display: none;
   /****************Team Main Css*****************/
 .team-main-section{
 	width: 100%;
+	.coming-soon-heading{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 0);
+		h1{
+			font-size: 50px;
+			font-family: $heading-font;
+			color: $secondary-color;
+			font-weight: 500;
+			text-align: center;
+			@include breakpoints(991px){
+				font-size: 30px;
+			}
+		}
+	}
 	.teams-main-grid{
 		width: 100%;
 		display: inline-block;
@@ -848,7 +900,7 @@ display: none;
 						top: -35px;
 	
 						img{
-							width: 42%;
+							width: 45%;
 							position: absolute;
 							left: 57%;
 							top: 50%;
@@ -937,3 +989,4 @@ display: none;
 		}
 	}
 }
+

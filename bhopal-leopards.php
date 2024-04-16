@@ -23,11 +23,11 @@
                     <h2 class="mb-2 mb-md-3">Bhopal Leopards</h2>
                     <p>Team Owner</p>
                     <span>To be announced soon</span>
-                    <p class="mt-2 mt-md-3">Amidst the calmness in the city of lakes, the leopards are crouching with its hind legs folded inwards ready to take a swish. The Bhopal Leopards true to their name are known for their ability to adapt, agility and strategic gameplay. Bhopal is also home to cricketers like M.K.Pataudi, Jai Prakash Yadav, Ricky Bhui & others.</p>
+                    <p class="mt-2 mt-md-3">Amidst the calmness in the city of lakes, the leopards are crouching with its hind legs folded inwards ready to take a swish. The Bhopal Leopards true to their name are known for their ability to adapt, agility and strategic gameplay. Bhopal is also home to cricketers like M.A. K.Pataudi, Jai Prakash Yadav & others. <strong>MP's Ranji winning captain Aditya Shrivastava</strong> </p>
                 </div>
             </div>
             <div class="coming-soon-data mt-2 mt-lg-0">
-                <h1>Coming soon shortly...</h1>
+                <h1>Coming soon..</h1>
             </div>
             </div>
       </div>
