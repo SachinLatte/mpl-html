@@ -51,8 +51,8 @@
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='results'){echo 'active';}?>">
 									<a class="nav-link" href="results.php">Results</a>
 								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='coming-soon'){echo 'active';}?>">
-									<a class="nav-link" href="coming-soon.php">Gallery</a>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='gallery'){echo 'active';}?>">
+									<a class="nav-link" href="gallery.php">Gallery</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='contact-us'){echo 'active';}?>">
 									<a class="nav-link" href="contact-us.php">Contact Us</a>

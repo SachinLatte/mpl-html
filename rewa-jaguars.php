@@ -21,7 +21,7 @@
                 <div class="team-info-grid-right position-relative">
                     <img src="img/team-logos/rewa-jaguars-logo.png" alt="Rewa Jaguars Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Rewa Jaguars</h2>
-                    <p>Team Owner</p>
+                    <p>Franchise Partner</p>
                     <span>To be announced soon</span>
                     <p class="mt-2 mt-md-3">Rewa Jaguars true to their name stands for strength, tenacity and commitment to excellence. Home to cricketers like Ishwar Pandey, Kuldeep Sen, <strong> Himanshu Mantri</strong>, Saumy Pandey and many more, the Jaguars are on a prowl. <strong>One of India's top most women cricketer Pooja Vastrakar</strong> </p>
                 </div>

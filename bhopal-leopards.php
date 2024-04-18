@@ -21,8 +21,8 @@
                 <div class="team-info-grid-right position-relative">
                     <img src="img/team-logos/bhopal-leopards-logo.png" alt="Bhopal Leopards Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Bhopal Leopards</h2>
-                    <p>Team Owner</p>
-                    <span>To be announced soon</span>
+                    <p>Franchise Partner</p>
+                    <span class="mt-2 mt-md-2"><img src="img/partners/franchise-logo1.png" alt="center for sports excellence logo">center for sports excellence</span>
                     <p class="mt-2 mt-md-3">Amidst the calmness in the city of lakes, the leopards are crouching with its hind legs folded inwards ready to take a swish. The Bhopal Leopards true to their name are known for their ability to adapt, agility and strategic gameplay. Bhopal is also home to cricketers like M.A. K.Pataudi, Jai Prakash Yadav & others. <strong>MP's Ranji winning captain Aditya Shrivastava</strong> </p>
                 </div>
             </div>

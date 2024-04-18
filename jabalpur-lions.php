@@ -21,8 +21,8 @@
                 <div class="team-info-grid-right position-relative">
                     <img src="img/team-logos/jabalpur-lions-logo.png" alt="Jabalpur Lions Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Jabalpur Lions</h2>
-                    <p>Team Owner</p>
-                    <span>To be announced soon</span>
+                    <p>Franchise Partner</p>
+                    <span class="mt-2 mt-md-2"><img src="img/partners/franchise-logo2.png" alt="center for sports excellence logo">SG Sports - Entertainment</span>
                     <p class="mt-2 mt-md-3">Representing the city of Jabalpur, this franchise amplifies the regal legacy & power. The city situated on the banks of River Narmada is a blend of culture, river ghats, wide highways, and a quaint surrounding and home to Marble Rocks, one of the most spectacular natural sites in the country. This Jabalpur based franchise is mighty, ferocious and focused. These pride of lions get aggressive when their authority is challenged. <strong>Is home to the highly talented IPL cricketer Arshad Khan (MI & LSG). Latest IPL sensation Shashank Singh also played his initial cricket at Jabalpur.</strong> </p>
                 </div>
             </div>

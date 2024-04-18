@@ -21,7 +21,7 @@
                 <div class="team-info-grid-right position-relative">
                     <img src="img/team-logos/gwalior-cheetah-logo.png" alt="Gwalior Cheetahs Logo" class="dl-none mb-2 mb-lg-0">
                     <h2 class="mb-2 mb-md-3">Gwalior Cheetah</h2>
-                    <p>Team Owner</p>
+                    <p>Franchise Partner</p>
                     <span>To be announced soon</span>
                     <p class="mt-2 mt-md-3">Built for speed, they are swift, energetic, adventurous & risk takers, the Gwalior Cheetahs are amplifies agility, precision and quick thinking. The franchise represents the city of Gwalior, home to Captain Roop Singh Stadium that witnessed the world's first double century in ODI scored by the little master 'Sachin Tendulkar'. Gwalior is also home to many professional cricketers including the likes of Ankit Sharma. <strong>MP's former premier all rounder Harvinder Singh Sodhi</strong> </p>
                 </div>
